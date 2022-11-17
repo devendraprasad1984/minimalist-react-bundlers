@@ -9,4 +9,5 @@ function App(){
     </React.Fragment>
 }
 const Root = createRoot(appContainer)
-Root.render(App)
+const mainApp=<App/>
+Root.render(mainApp)

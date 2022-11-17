@@ -33299,4 +33299,5 @@ function App() {
   return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement("div", null, "Hello World!"));
 }
 var Root = client_1(appContainer);
-Root.render(App);
+var mainApp = /*#__PURE__*/react.createElement(App, null);
+Root.render(mainApp);
